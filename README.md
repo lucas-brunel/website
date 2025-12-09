@@ -21,3 +21,14 @@ I made the "raw HTML" option for people who are generating HTML UI's with Claude
 > Quartz is meant to be extremely configurable, even if you don’t know any coding. Most of the configuration you should need can be done by just editing quartz.config.ts or changing the layout in quartz.layout.ts.
 
 https://quartz.jzhao.xyz/configuration
+
+## Run locally
+
+Go to the `source/` subfolder.
+
+Then run:
+```bash
+npx quartz build --serve
+```
+
+Finally, open [http://localhost:8080](http://localhost:8080).
