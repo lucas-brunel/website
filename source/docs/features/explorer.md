@@ -34,7 +34,7 @@ Component.Explorer({
   filterFn: filterFn: (node) => node.name !== "tags", // filters out 'tags' folder
   mapFn: undefined,
   // what order to apply functions in
-  order: ["filter", "map", "sort"],
+  order: ["sort", "filter", "map"],  // Default: ["filter", "map", "sort"]
 })
 ```
 

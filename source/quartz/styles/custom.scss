@@ -1,3 +1,72 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+/* ============================================================
+   1. GLOBAL ITALIC STYLES
+   ============================================================ */
+
+// LIGHT MODE
+html[saved-theme="light"] em, 
+html[saved-theme="light"] i {
+    color: rgb(120, 141, 183) !important;
+    font-weight: 500;
+}
+
+// DARK MODE
+html[saved-theme="dark"] em, 
+html[saved-theme="dark"] i {
+    color: rgb(176, 201, 251) !important;
+    font-weight: 500;
+}
+
+/* ============================================================
+   2. CALLOUT CONFIGURATION
+   ============================================================ */
+
+// UNIVERSAL CALLOUT STYLES
+.callout {
+    border-radius: 15px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+}
+
+/* --- EXPERIENCE CALLOUT --- */
+
+// --- SHARED STRUCTURE (Layout & Icon Hiding)
+.callout[data-callout="experience"] {
+    --callout-icon: none;
+}
+
+// Hide Icon & Adjust Padding
+.callout[data-callout="experience"] .callout-icon { display: none; }
+.callout[data-callout="experience"] .callout-title { padding-inline-start: 10px; }
+.callout[data-callout="experience"] .callout-content { padding-inline-start: 10px; }
+
+// --- LIGHT MODE: Sand Dune Background ---
+html[saved-theme="light"] .callout[data-callout="experience"] {
+    --color: 0, 0, 0;               // Black Text
+    --bg: 229, 220, 197;            // Sand Dune
+    --border: 229, 220, 197;        // Sand Dune
+    
+    background-color: rgba(229, 220, 197, 0.2);
+}
+
+// --- DARK MODE: Charcoal Background ---
+html[saved-theme="dark"] .callout[data-callout="experience"] {
+    --color: 255, 255, 255;         // White Text
+    --bg: 76, 76, 71;               // Charcoal
+    --border: 76, 76, 71;           // Charcoal
+    
+    // Slightly higher opacity (0.4) for better visibility on dark mode
+    background-color: rgba(76, 76, 71, 0.4); 
+}
+
+
+/*
+Color palette:
+- Graphite        rgb(45, 45, 42)      hex(#2D2D2A)
+- Charcoal        rgb(76, 76, 71)      hex(#4C4C47)
+- Lavender Grey   rgb(132, 143, 165)   hex(#848FA5)
+- Blushed Brick   rgb(193, 73, 83)     hex(#C14953)
+- Sand Dune       rgb(229, 220, 197)   hex(#E5DCC5)
+*/

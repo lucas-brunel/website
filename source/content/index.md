@@ -1,8 +1,6 @@
-Let's test what code looks like:
+---
+title: Home
+---
+Welcome to my personal website!
 
-```python
-import numpy as np
-
-arr = np.arange(9)
-sum = np.sum(arr)
-```
+You can find my [[CV]], an overview of my [[Research|research]], and my [[Teaching|teaching experience]].
