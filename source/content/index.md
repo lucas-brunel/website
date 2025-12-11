@@ -4,6 +4,8 @@ title: Home
 
 Hi, I'm Lucas Brunel. I am a last-year PhD student in Applied Mathematics at ONERA and LIMOS.
 
+<img src="assets/pp.jpg" width="300" />
+
 My work focuses on uncertainty propagation using surrogate models with functional outputs. I am particularly interested in random sets, Bayesian modelling and dimensionality reduction.
 
 I am currently looking for a postdoctoral position starting in March 2026.
