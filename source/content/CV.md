@@ -4,7 +4,7 @@ order: 3
 
 ## Education
 
-> [!experience] PhD student in Applied Mathematics (2022 → present)
+> [!experience] PhD candidate in Applied Mathematics (2022 → present)
 > _ONERA, Université Paris-Saclay & LIMOS (CNRS, Mines St-Etienne, Univ. Clermont Auvergne), France_
 > - __Topic:__ Surrogate-based uncertainty propagation for expensive simulators with functional outputs
 > - __Supervisors:__ Rodolphe Le Riche (CNRS/LIMOS), Bruno Sudret (ETH Zürich)

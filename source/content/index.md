@@ -2,7 +2,7 @@
 title: Home
 ---
 
-Hi, I'm Lucas Brunel. I am a last-year PhD student in Applied Mathematics at ONERA and LIMOS.
+Hi, I'm Lucas Brunel. I am a final-year PhD candidate in Applied Mathematics at ONERA and LIMOS.
 
 <img src="assets/pp.jpg" width="300" />
 

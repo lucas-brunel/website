@@ -3,7 +3,7 @@ order: 1
 ---
 
 > [!experience] Overview
-> I am currently a third-year PhD student in Applied Mathematics at ONERA (the French aerospace lab) and LIMOS. My research focuses on _uncertainty quantification_ based on _surrogate modelling_ for physical simulators with functional outputs, with applications in aerospace engineering. Specifically, I have investigated the estimation of _quantiles_, _excursion sets_, and their _confidence regions_, using and adapting techniques from _Kriging_, _dimensionality reduction_, _multi-fidelity_ surrogate modelling, and active learning. I will defend my PhD in early 2026 and am seeking postdoctoral opportunities starting soon after.
+> I am currently a last-year PhD candidate in Applied Mathematics at ONERA (the French aerospace lab) and LIMOS. My research focuses on _uncertainty quantification_ based on _surrogate modelling_ for physical simulators with functional outputs, with applications in aerospace engineering. Specifically, I have investigated the estimation of _quantiles_, _excursion sets_, and their _confidence regions_, using and adapting techniques from _Kriging_, _dimensionality reduction_, _multi-fidelity_ surrogate modelling, and active learning. I will defend my PhD in early 2026 and am seeking postdoctoral opportunities starting soon after.
 
 ## Publications
 
